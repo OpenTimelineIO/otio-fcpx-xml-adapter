@@ -564,7 +564,8 @@ class FcpxOtio:
                 "duration": duration
             }
         )
-        if clip.media_reference and not clip.media_reference.is_missing_reference:
+        if (clip.media_reference and not
+           clip.media_reference.is_missing_reference):
             fcpx_metadata = clip.media_reference.metadata.get("fcpx", {})
             note_element = self._create_note_element(
                 fcpx_metadata.get("note", None)
