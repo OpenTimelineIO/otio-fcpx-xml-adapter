@@ -1,4 +1,4 @@
-# OpenTimelineIO Maya Sequencer Adapter
+# OpenTimelineIO FCP X XML Adapter
 
 The `fcpx_xml` adapter is part of OpenTimelineIO's contrib adapter plugins.
 It provides reading and writing of Final Cut Pro X formatted XML files. 
