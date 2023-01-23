@@ -8,7 +8,7 @@ import unittest
 import unittest.mock
 import opentimelineio as otio
 import opentimelineio.test_utils as otio_test_utils
-from opentimelineio_contrib.adapters.fcpx_xml import format_name
+from opentimelineio.adapters.fcpx_xml import format_name
 
 SAMPLE_LIBRARY_XML = os.path.join(
     os.path.dirname(__file__),
