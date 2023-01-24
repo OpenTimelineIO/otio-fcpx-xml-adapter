@@ -5,7 +5,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "otio-fcp-x-xml-adapter"
+name = "otio-fcpx-xml-adapter"
 version = "1.0.0"
 description = "OpenTimelineIO FCP X XML Adapter"
 authors = [
@@ -37,8 +37,8 @@ classifiers = [
 keywords = ["film", "tv", "editing", "editorial", "edit", "non-linear", "fcpx", "time", "otio", "otio-adapter"]
 
 [project.urls]
-Homepage = "https://github.com/OpenTimelineIO/otio-fcp-x-xml-adapter"
-Tracker = "https://github.com/OpenTimelineIO/otio-fcp-x-xml-adapter/issues"
+Homepage = "https://github.com/OpenTimelineIO/otio-fcpx-xml-adapter"
+Tracker = "https://github.com/OpenTimelineIO/otio-fcpx-xml-adapter/issues"
 
 [project.entry-points."opentimelineio.plugins"]
 otio_cmx3600_adapter = "otio_fcp_x_xml_adapter"

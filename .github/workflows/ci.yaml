@@ -18,7 +18,7 @@ on:
 jobs:
   test-plugin:
     env:
-      plugin_name: "otio-fcp-x-xml-adapter"
+      plugin_name: "otio-fcpx-xml-adapter"
 
     strategy:
       matrix:

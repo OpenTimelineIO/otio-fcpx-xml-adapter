@@ -1,9 +1,9 @@
-# OpenTimelineIO FCP X XML Adapter
+# OpenTimelineIO FCPX XML Adapter
 
 The `fcpx_xml` adapter is part of OpenTimelineIO's contrib adapter plugins.
 It provides reading and writing of Final Cut Pro X formatted XML files. 
 For more information on the FCP X XML format please check the links in the 
-[reference](#fcp-x-xml-references) section 
+[reference](#fcpx-xml-references) section 
 
 # Adapter Feature Matrix
 
@@ -25,13 +25,13 @@ The following features of OTIO are supported by the `fcpx_xml` adapter:
 |Image Sequence Reference | ✖       |
 
 
-# FCP X XML References
+# FCPX XML References
 
 - [Reference](https://developer.apple.com/library/mac/documentation/FinalCutProX/Reference/FinalCutProXXMLFormat/Introduction/Introduction.html)
 
 # License
 
-OpenTimelineIO and the "fcp x xml" adapter are open source software.
+OpenTimelineIO and the "fcpx xml" adapter are open source software.
 Please see the [LICENSE](LICENSE) for details.
 
 Nothing in the license file or this project grants any right to use Pixar or
