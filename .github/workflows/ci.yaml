@@ -42,7 +42,7 @@ jobs:
           if [[ "${{ matrix.otio-version }}" == "main" ]]; then
             pip install "git+https://github.com/AcademySoftwareFoundation/OpenTimelineIO.git"
           else
-            pip install OpenTimelineIO>=${{ matrix.otio-version }} --pre --only-binary :all:
+            pip install OpenTimelineIO>=${{ matrix.otio-version }} --only-binary :all:
           fi
           pip install flake8 pytest pytest-cov
         shell: bash
